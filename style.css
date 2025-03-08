@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F8F9FA; /* Light Gray */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50; /* Deep Blue-Gray */
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    background: white;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2C3E50; /* Deep Blue-Gray */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E74C3C; /* Accent Color */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+}
+
+/* Profile Image */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #E74C3C; /* Accent Color */
+}
+
+/* Skills */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #E74C3C; /* Accent Color */
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    background: #F8F9FA; /* Light Gray */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume */
+a {
+    display: inline-block;
+    background: #E74C3C; /* Accent Color */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #C0392B;
+}
+
+/* Contact */
+#contact {
+    padding: 40px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50; /* Deep Blue-Gray */
+    color: white;
+    padding: 10px;
+}
+
+/* Social Links */
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
